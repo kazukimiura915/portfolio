@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,nofollow">
+    <title>MIURA Kazuki's portfolio</title>
+
+    <link rel="stylesheet" href="./tailwind.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.12.1/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.12.1/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/9.12.1/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <style>
+      body {
+        background: linear-gradient(0deg, transparent 23px, #8ccf8c 24px), linear-gradient(90deg, transparent 23px, #8ccf8c 24px);
+        background-size: 24px 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="text-gray-900 font-sans text-base tracking-wide leading-relaxed container mx-auto p-2">
+      <div class="mb-18 mt-6">
+        <h1 class="font-bold text-8xl">Portfolio</h1>
+        <p>三浦一希のポートフォリオです。</p>
+      </div>
+      <section class="mb-18">
+        <div>
+          <h2 class="text-2xl mb-4">プロフィール・経歴</h2>
+          <div class="mb-2">
+            <p>氏名：三浦一希</p>
+            <p>2008年服飾専門学校卒業後、アパレル企業に入社。販売、EC業務に従事。<br>
+              2017年SIer企業に入社。ウェブエンジニアとして客先常駐、おもにウェブサイトの運用保守を担当。<br>
+              2020年退職し、同社と業務委託契約。同客先で引き続きウェブエンジニアとして常駐し、その傍らウェブ制作事業を行っています。<br>
+              既存ウェブサイトの運用保守に加え、機能開発やSEO対応、デザインなどウェブサイトに関連する業務を総じて提供しています。
+            </p>
+            </div>
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <section class="mb-18">
+        <div>
+          <h2 class="text-2xl mb-4">対応案件</h2>
+          <div class="mb-6">
+            これまで対応してきた案件をいくつかご紹介しています。
+          </div>
+          <div class="columns-1 md:columns-2 lg:columns-3 gap-2 md:gap-4">
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+              <img class="w-full" src="./images/2022-10-28-003550.png" alt="">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">留守宅管理事業サービスサイト</div>
+                <p class="text-gray-700 text-base">
+                  グローバルナビゲーション制作、下層ページレスポンシブ対応、コンテンツのテンプレート化（/column /words）、機能追加
+                </p>
+                <p><a href="https://www.tenrusu.jp/" target="_blank" rel="nofollow">https://www.tenrusu.jp/</a></p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">jQuery</span>
+              </div>
+            </div>
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+              <img class="w-full" src="./images/2022-10-28-004353.png" alt="">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">会員制リゾート事業コーポレートサイト</div>
+                <p class="text-gray-700 text-base">
+                  問い合わせフォームセールスフォース連携、WordPressテーマ修正
+                </p>
+                <p><a href="https://relovacations.com/" target="_blank" rel="nofollow">https://relovacations.com/</a></p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+              </div>
+            </div>
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+                <img class="w-full" src="./images/2022-10-30 002347.png" alt="">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">ホールディングス会社コーポレートサイト</div>
+                  <p class="text-gray-700 text-base">
+                    MovableTypeテーマ修正、新規テンプレート開発/ページ作成、googleタグマネージャー導入
+                  </p>
+                  <p><a href="https://www.relo.jp/" target="_blank" rel="nofollow">https://www.relo.jp/</a></p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MovableType</span>
+                </div>
+              </div>
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+              <img class="w-full" src="./images/2022-10-28-005405.png" alt="">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">大学向け教育講座申し込みフォーム</div>
+                <p class="text-gray-700 text-base">
+                  デザイン、実装
+                </p>
+                <p><a href="https://www.reloexcel.jp/rpe/doshisha_alleng/" target="_blank" rel="nofollow">https://www.reloexcel.jp/rpe/
+                  doshisha_alleng/</a></p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">jQuery</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Bootstrap</span>
+              </div>
+            </div>    
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+              <img class="w-full" src="./images/2022-10-28 010641.png" alt="">
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">介護事業コーポレートサイト</div>
+                <p class="text-gray-700 text-base">
+                  サーバー設定、コーディング、下層ページ一部デザイン、SEO
+                </p>
+                <p><a href="https://kakuda4141.co.jp/" target="_blank" rel="nofollow">https://kakuda4141.co.jp/</a></p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">WordPress</span>
+              </div>
+            </div> 
+            <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+                <img class="w-full" src="./images/2022-10-30 003606.png" alt="">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">原子力事業コーポレートサイト</div>
+                  <p class="text-gray-700 text-base">
+                    サーバー設定、コーディング、下層ページ一部デザイン、SEO
+                  </p>
+                  <p><a href="https://nakashimakiko.co.jp/" target="_blank" rel="nofollow">https://nakashimakiko.co.jp/</a></p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">WordPress</span>
+                </div>
+              </div>
+              <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+                <img class="w-full" src="./images/2022-10-30 004039.png" alt="">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">屋外用トイレ製品サイト</div>
+                  <p class="text-gray-700 text-base">
+                    サーバー設定、コーディング、下層ページ一部デザイン、SEO
+                  </p>
+                  <p><a href="https://newto.jp/" target="_blank" rel="nofollow">https://newto.jp/</a></p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">php</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">WordPress</span>
+                </div>
+              </div>
+              <div class="rounded overflow-hidden hover:shadow-lg p-4 mb-4 bg-white">
+                <img class="w-full" src="./images/2022-10-30 004235.png" alt="">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">石材事業コーポレートサイト</div>
+                  <p class="text-gray-700 text-base">
+                    サーバー設定、コーディング、下層ページ一部デザイン、SEO
+                  </p>
+                  <p><a href="https://marutomi-kogyo.co.jp/" target="_blank" rel="nofollow">https://marutomi-kogyo.co.jp/</a></p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">STUDIO</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <section class="mb-18">
+        <div>
+          <h2 class="text-2xl mb-4">使用言語・ツール</h2>
+          <div class="mb-6">
+            これまでの案件で利用したことのあるもののみ掲載しています。
+          </div>
+          <div>
+            <dt>言語</dt>
+<dd>html | css | JavaScript | PHP</dd>
+<dt>フレームワーク、データベース</dt>
+<dd>jQuery | bootstrap | ui-kit | MySQL</dd>
+<dt>その他</dt>
+<dd>
+  LINUX | WordPress | Movabletype | apache | SCSS | adobe Illustrator | adobe photoshop | google tag manager |<br>
+  google analytics | search console | yahoo tag manager | salesforce | spiral | git | gitlab | jenkins
+</dd>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h2></h2>
+          <div></div>
+        </div>
+        <div>
+          
+        </div>
+      </section>
+    </main>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+        <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA41rulAM5UL_nyAp6lEYBYGSqHnL4VpmY",
+          authDomain: "portofolio-d8209.firebaseapp.com",
+          projectId: "portofolio-d8209",
+          storageBucket: "portofolio-d8209.appspot.com",
+          messagingSenderId: "1076363508750",
+          appId: "1:1076363508750:web:2d6ec5b2133c89057d505f",
+          measurementId: "G-W9C9SDKZ34"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+  </body>
+</html>
